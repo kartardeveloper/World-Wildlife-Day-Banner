@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Familjen+Grotesk:ital,wght@0,400..700;1,400..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Familjen+Grotesk:ital,wght@0,400..700;1,400..700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Familjen Grotesk", sans-serif;
+}
+
+.banner-section {
+  background: url("../images/bg-image.webp") no-repeat center/cover;
+  height: 100vh;
+  position: relative;
+}
+
+.banner-content {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -45%);
+  text-align: center;
+}
+
+.banner-heading {
+  font-size: 80px;
+  font-weight: 600;
+  color: #311116;
+  text-shadow: 4px 4px #FFFCEB;
+}
+
+.banner-description {
+  font-size: 36px;
+  font-weight: 600;
+  font-family: "Dancing Script", sans-serif;
+}
